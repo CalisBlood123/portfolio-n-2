@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mateo.design | Diseño y Front-End</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container main-nav">
+        <a href="#inicio" class="brand"><i class="brand-mark">G</i>Gabriel.html</a>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#sobre-mi">Sobre Mi</a></li>
+        </ul>
+        <a href="#contacto" class="button primary">Hablemos</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container">
+          <div>
+            <span class="status-pill">Diseñador web front-end</span>
+            <h1 class="hero-title">Diseño interfaces que cobran vida con <span>código limpio</span>.</h1>
+            <p class="hero-copy">
+              Hola, soy Gabriel. Combino el rigor estético del diseño visual con la
+              precisión de HTML, CSS y JavaScript moderno. Construyendo soluciones web
+              enfocadas en la experiencia del usuario y el rendimiento.
+            </p>
+            <div class="actions">
+              <a href="#proyectos" class="button primary">Ver Proyectos ↓</a>
+              <a href="#sobre-mi" class="button">Mi CV / Trayectoria</a>
+            </div>
+          </div>
+          <div class="code-panel">
+            <div class="code-bar">portfolio.js - Babel</div>
+            <pre><span class="token-key">const</span> student = {
+  name: <span class="token-string">"Gabriel"</span>,
+  role: <span class="token-string">"Web Designer"</span>,
+  skills: [<span class="token-string">"HTML"</span>, <span class="token-string">"CSS"</span>, <span class="token-string">"JS"</span>],
+  passion: <span class="token-value">"Crear interfaces interactivas"</span>
+};
+<span class="token-key">function</span> <span class="token-function">renderExperience</span>() {
+  return brandStrategy + modernLayouts;
+}</pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="alternate" id="habilidades">
+        <div class="container">
+          <div class="section-header centered">
+            <span class="eyebrow">Especialización técnica</span>
+            <h2>Mis Herramientas de Creación</h2>
+            <p class="section-copy">
+              Me enfoco en dominar tecnologías nativas de la web para garantizar que el
+              diseño sea tan eficiente como visualmente impresionante.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <div class="skill-header"><span class="skill-icon">▣</span><span class="skill-tag">Estructura</span></div>
+              <h3>HTML Semántico</h3>
+              <div class="level-row"><span>Nivel</span><b>95%</b></div>
+              <div class="progress"><i class="progress-bar" style="--w:95%"></i></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-header"><span class="skill-icon">◐</span><span class="skill-tag">Maquetación</span></div>
+              <h3>CSS / Flexbox &amp; Grid</h3>
+              <div class="level-row"><span>Nivel</span><b>90%</b></div>
+              <div class="progress"><i class="progress-bar" style="--w:90%"></i></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-header"><span class="skill-icon">&gt;_</span><span class="skill-tag">Interactividad</span></div>
+              <h3>JavaScript ES6+</h3>
+              <div class="level-row"><span>Nivel</span><b>80%</b></div>
+              <div class="progress"><i class="progress-bar" style="--w:80%"></i></div>
+            </article>
+            <article class="skill-card">
+              <div class="skill-header"><span class="skill-icon">✦</span><span class="skill-tag">Visual</span></div>
+              <h3>Diseño Figma / UI</h3>
+              <div class="level-row"><span>Nivel</span><b>85%</b></div>
+              <div class="progress"><i class="progress-bar" style="--w:85%"></i></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">Trabajo sobresaliente</span>
+            <h2>Proyecto Destacado</h2>
+          </div>
+          <div class="feature-showcase">
+            <div class="showcase-visual">
+              <div class="visual-row"><span class="visual-block"></span><span class="visual-block"></span><span class="visual-block"></span><span class="visual-block"></span></div>
+              <svg viewBox="0 0 300 100" preserveAspectRatio="none">
+                <polyline
+                  points="0,80 30,60 60,70 90,35 120,55 150,25 180,50 210,30 240,55 270,20 300,40"
+                  fill="none"
+                  stroke="#38bdf8"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div>
+              <div class="badge-list">
+                <span class="badge featured">Figma</span>
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS Grid</span>
+                <span class="badge">Vanilla JS</span>
+              </div>
+              <h3>Nova Dashboard - Panel de Gestión Financiera</h3>
+              <p class="feature-copy">
+                Una plataforma interactiva diseñada para la visualización de métricas
+                financieras. Implementé una maquetación CSS altamente responsiva
+                utilizando CSS Grid y un sistema de temas claro/oscuro controlado
+                puramente mediante clases de JavaScript nativo.
+              </p>
+              <ul class="feature-checks">
+                <li>Estructura semántica optimizada para accesibilidad (WCAG)</li>
+                <li>Gráficos interactivos ligeros con librerías CSS nativas</li>
+              </ul>
+              <div class="feature-actions">
+                <a href="#contacto" class="button primary">Ver Caso de Estudio</a>
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener"
+                  class="button"
+                >
+                  Ver Código en GitHub ⧉
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="alternate">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">Trabajos recientes</span>
+            <h2>Galería de Proyectos</h2>
+          </div>
+          <div class="projects-grid">
+            <a href="#contacto" class="project-card">
+              <div class="project-thumb thumb-1">NATURAL ESSENCE</div>
+              <div class="project-body">
+                <div class="badge-list">
+                  <span class="badge">HTML</span>
+                  <span class="badge">SASS</span>
+                  <span class="badge">JavaScript</span>
+                </div>
+                <h3>EcoShop - E-commerce Sostenible</h3>
+                <p>
+                  Maquetación moderna de tienda online con carrito de compras reactivo
+                  programado en JavaScript plano.
+                </p>
+              </div>
+              <span class="project-link">Explorar Proyecto <span>↗</span></span>
+            </a>
+            <a href="#contacto" class="project-card">
+              <div class="project-thumb thumb-2">16°C</div>
+              <div class="project-body">
+                <div class="badge-list">
+                  <span class="badge">API</span>
+                  <span class="badge">REST</span>
+                  <span class="badge">CSS Modules</span>
+                </div>
+                <h3>ClimaNow - App del Tiempo</h3>
+                <p>
+                  Consumo de API meteorológica pública. Renderizado dinámico de datos y
+                  cambio estético según el clima actual.
+                </p>
+              </div>
+              <span class="project-link">Explorar Proyecto <span>↗</span></span>
+            </a>
+            <a href="#contacto" class="project-card">
+              <div class="project-thumb thumb-3">ARCHSTUDIO</div>
+              <div class="project-body">
+                <div class="badge-list">
+                  <span class="badge">Responsive</span>
+                  <span class="badge">Figma</span>
+                  <span class="badge">Web Performance</span>
+                </div>
+                <h3>ArchStudio - Portafolio de Arquitectura</h3>
+                <p>
+                  Diseño minimalista con enfoque en transiciones fluidas de imágenes y
+                  galerías asimétricas con CSS flexbox.
+                </p>
+              </div>
+              <span class="project-link">Explorar Proyecto <span>↗</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="proceso">
+        <div class="container">
+          <div class="section-header centered">
+            <span class="eyebrow">Cómo trabajo</span>
+            <h2>Proceso de Desarrollo Integral</h2>
+            <p class="section-copy">
+              Un flujo de trabajo sistemático estructurado para garantizar que las ideas
+              de diseño se traduzcan perfectamente en código funcional.
+            </p>
+          </div>
+          <div class="projects-grid">
+            <article class="process-step">
+              <div class="step-number">01</div>
+              <h3>Conceptualización &amp; UI</h3>
+              <p>
+                Análisis del problema y diseño de prototipos rápidos en Figma para
+                validar flujos y consistencia visual.
+              </p>
+            </article>
+            <article class="process-step">
+              <div class="step-number">02</div>
+              <h3>Maquetación Limpia</h3>
+              <p>
+                Escritura de código HTML semántico compatible con SEO y hojas de estilo
+                CSS flexibles, modulares y mantenibles.
+              </p>
+            </article>
+            <article class="process-step">
+              <div class="step-number">03</div>
+              <h3>Interactividad &amp; Lógica</h3>
+              <p>
+                Optimización mediante JavaScript para añadir lógica al negocio,
+                animaciones intencionales e integración de APIs.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="alternate about" id="sobre-mi">
+        <div class="container">
+          <span class="eyebrow">Sobre mí</span>
+          <h2>Estudiante de Diseño enfocado en la Tecnología</h2>
+          <p>
+            Actualmente curso el último año de la carrera de Diseño y Desarrollo Web. Mi
+            misión es unificar el plano estético con la ingeniería informática del lado
+            del cliente. Creo firmemente que un buen producto no solo debe verse
+            espectacular, sino que debe cargar al instante, ser accesible para todos y
+            fácil de escalar.
+          </p>
+          <p>
+            Cuando no estoy programando o diseñando en Figma, suelo investigar sobre
+            metodologías ágiles, participar en Hackathons universitarias y escribir
+            artículos cortos sobre optimización de rendimiento web.
+          </p>
+          <div class="about-stats">
+            <div><b>15+</b><span>Proyectos UI/UX prototipados</span></div>
+            <div><b>100%</b><span>Pasión por los detalles pixel-perfect</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="centered">
+        <div class="container">
+          <span class="eyebrow">Únete a la comunidad</span>
+          <h2>Mantente al tanto de mi Proceso</h2>
+          <p class="section-copy">
+            Regístrate visualmente para recibir actualizaciones de mis nuevos
+            experimentos de código, plantillas gratuitas de Figma y recursos de
+            desarrollo front-end.
+          </p>
+          <div class="newsletter">
+            <div class="newsletter-fields">
+              <div>
+                <label>Nombre completo</label>
+                <input type="text" placeholder="Ej. Mateo Pérez" />
+              </div>
+              <div>
+                <label>Correo electrónico</label>
+                <input type="email" placeholder="tu@correo.com" />
+              </div>
+            </div>
+            <button type="button" class="button primary newsletter-submit">
+              Suscribirse (Registro de Muestra)
+            </button>
+            <small>
+              *Este formulario es un elemento de diseño estrictamente estático e
+              interactivo en diseño.
+            </small>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-banner" id="contacto">
+        <div class="container">
+          <h2>¿Tienes un proyecto en mente?<br />Creémoslo juntos</h2>
+          <p>
+            Estoy disponible para colaboraciones, proyectos freelance de maquetación o
+            prácticas de diseño de interfaz de usuario.
+          </p>
+          <div class="actions">
+            <a href="mailto:hola@mateo.design" class="button light">Escríbeme un correo ✉</a>
+            <a href="https://github.com" target="_blank" rel="noopener" class="button ghost">
+              Ver GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="#inicio" class="brand"><i class="brand-mark">M</i>Mateo.design</a>
+            <p>
+              Estudiante y diseñador apasionado por crear interfaces web con un gran
+              sentido estético e interactividad interactiva moderna.
+            </p>
+            <a class="footer-link" href="mailto:hola@mateo.design">✉ hola@mateo.design</a>
+            <a class="footer-link" href="tel:+34600000000">☎ +34 600 000 000</a>
+          </div>
+          <div>
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+              <li><a href="#sobre-mi">Sobre Mi</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Habilidades clave</h4>
+            <ul>
+              <li>HTML5 Semántico</li>
+              <li>CSS Moderno / Flexbox</li>
+              <li>JavaScript vanilla ES6</li>
+              <li>Figma Prototyping</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Social</h4>
+            <ul>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://behance.net" target="_blank" rel="noopener">Behance</a></li>
+              <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-meta">
+          <p>© 2025 Mateo.design. Todos los derechos reservados. Diseñado y maquetado con rigor.</p>
+          <span>
+            <a href="#inicio">Aviso Legal</a>
+            <a href="#inicio">Privacidad</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
