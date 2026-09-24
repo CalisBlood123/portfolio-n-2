@@ -52,6 +52,10 @@ section {
   border-bottom: 1px solid var(--line);
 }
 
+.alternate-2 {
+  border-bottom: 1px solid var(--line);
+}
+
 .eyebrow {
   display: block;
   color: var(--blue);
