@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --blue: #0b5fff;
   --ink: #0f172a;
@@ -6,12 +12,6 @@
   --bg: #fff;
   --alt: #f8fafc;
   --tint: #eaf1ff;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -401,6 +401,7 @@ header {
   box-shadow: 0 18px 40px rgba(15, 23, 42, 0.25);
   aspect-ratio: 16/10;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -422,29 +423,6 @@ header {
   width: 100%;
   background: #111c33;
   border-radius: 8px;
-}
-
-.badge-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 14px;
-}
-
-.badge {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #475569;
-  padding: 3px 8px;
-  border-radius: 5px;
-  background: #eef2f7;
-}
-
-.badge.featured {
-  background: var(--tint);
-  color: var(--blue);
 }
 
 .feature-showcase h3 {
