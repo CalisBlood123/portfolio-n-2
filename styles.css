@@ -795,3 +795,30 @@ footer {
     transition: none !important;
   }
 }
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.contact-message {
+  margin-bottom: 14px;
+}
+
+.newsletter textarea {
+  width: 100%;
+  padding: 11px 12px;
+  font: inherit;
+  font-size: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fff;
+  resize: vertical;
+}
+
+.newsletter-submit {
+  cursor: pointer;
+}
