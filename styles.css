@@ -702,6 +702,13 @@ footer {
   color: var(--blue);
 }
 
+.footer-nolink {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+
 .footer-link {
   display: block;
   font-size: 12px;
@@ -731,6 +738,10 @@ footer {
   .hero .container,
   .feature-showcase {
     grid-template-columns: 1fr;
+  }
+
+  .code-panel {
+    display: none;
   }
 
   .skills-grid {
