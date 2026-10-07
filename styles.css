@@ -188,6 +188,7 @@ header {
 
 .hero {
   padding: 88px 0 96px;
+  background: radial-gradient(circle at 75% 40%, rgba(11, 95, 255, 0.15), transparent 45%), radial-gradient(rgba(15, 23, 42, 0.12) 1px, transparent 1px) 0 0 / 24px 24px;
 }
 
 .hero .container {
