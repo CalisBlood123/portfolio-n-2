@@ -24,7 +24,7 @@
         <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
         <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
       </ul>
-      <button type="button" class="button primary" data-href="#contacto">Hablemos</button>
+      <a class="button primary" href="#contacto">Hablemos</a>
     </div>
   </header>
 
@@ -41,12 +41,12 @@
             enfocadas en la experiencia del usuario y el rendimiento.
           </p>
           <div class="actions d-flex">
-            <button type="button" class="button primary" data-href="#proyectos">Ver Proyectos ↓</button>
-            <button type="button" class="button" data-href="#sobre-mi">Mi trayectoria</button>
+            <a class="button primary" href="#proyectos">Ver Proyectos ↓</a>
+            <a class="button" href="#sobre-mi">Mi trayectoria</a>
           </div>
         </div>
         <div class="code-panel">
-          <div class="code-bar d-flex align-items-center">portfolio.js</div>
+          <div class="code-bar">portfolio.js</div>
           <pre><span class="token-key">const</span> student = {
   name: <span class="token-string">"Gabriel"</span>,
   role: <span class="token-string">"Web Designer"</span>,
@@ -129,10 +129,10 @@
               <li class="d-flex gap-2">Diseño adaptable a móvil</li>
             </ul>
             <div class="feature-actions d-flex">
-              <button type="button" class="button primary" data-href="https://flags-the-world.netlify.app/"
-                data-target="_blank">Ver sitio en vivo</button>
-              <button type="button" class="button" data-href="https://github.com/CalisBlood123/flag-pag"
-                data-target="_blank">Ver Código en GitHub</button>
+              <a class="button primary" href="https://flags-the-world.netlify.app/" target="_blank"
+                rel="noopener noreferrer">Ver sitio en vivo</a>
+              <a class="button" href="https://github.com/CalisBlood123/flag-pag" target="_blank"
+                rel="noopener noreferrer">Ver Código en GitHub</a>
             </div>
           </div>
         </article>
@@ -213,8 +213,8 @@
         </p>
         <address class="contact-links d-flex flex-wrap justify-content-center gap-3">
           <button type="button" class="button fw-bold" id="btn-copiar">calisblood123@correo.com</button>
-          <button class="button fw-bold"><a href="https://github.com/CalisBlood123" target="_blank"
-              class="text-decoration-none">GitHub</a></button>
+          <a class="button fw-bold" href="https://github.com/CalisBlood123" target="_blank"
+            rel="noopener noreferrer">GitHub</a>
         </address>
 
         <form action="https://formspree.io/f/xvkzjwdd" method="POST" class="newsletter mx-auto">
@@ -293,9 +293,6 @@
 
 
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 

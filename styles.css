@@ -47,10 +47,6 @@ section {
 }
 
 
-footer section {
-  padding: 0rem 0;
-}
-
 .alternate {
   background: var(--alt);
   border-top: 0.0625rem solid var(--line);
@@ -239,9 +235,6 @@ header {
 }
 
 .code-panel .code-bar {
-  display: flex;
-  align-items: center;
-  gap: 0.4375rem;
   padding: 0.75rem 1rem;
   background: #1e293b;
   color: #94a3b8;
@@ -514,19 +507,8 @@ header {
 }
 
 .newsletter-submit {
-  width: 100%;
-  justify-content: center;
   border-radius: 0.375rem;
   padding: 0.75rem;
-  cursor: default;
-}
-
-.newsletter small {
-  display: block;
-  text-align: center;
-  margin-top: 0.75rem;
-  font-size: 0.625rem;
-  color: #94a3b8;
 }
 
 footer {
@@ -559,8 +541,7 @@ footer {
   margin-bottom: 0.625rem;
 }
 
-.footer-grid li a:hover,
-.footer-meta a:hover {
+.footer-grid li a:hover {
   color: var(--blue);
 }
 
@@ -606,10 +587,6 @@ footer {
   resize: vertical;
 }
 
-.newsletter-submit {
-  cursor: pointer;
-}
-
 .copy-toast {
   position: fixed;
   bottom: 20px;
@@ -653,7 +630,6 @@ footer {
 @media (max-width: 60rem) {
   .hero .container,
   .feature-showcase {
-    size: 100vw;
     grid-template-columns: 1fr;
   }
 
