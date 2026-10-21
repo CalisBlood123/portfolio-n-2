@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gabriel | Diseño web</title>
-    <link rel="icon" type="image/png" href="assets/letra_g.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <header>
-      <div class="container mx-auto main-nav d-flex justify-content-between align-items-center">
-        <a href="#inicio" class="brand d-flex align-items-center text-decoration-none"><i class="brand-mark d-grid">G</i>Gabriel.html</a>
-        <ul>
-          <li><a href="#inicio" class="text-decoration-none">Inicio</a></li>
-          <li><a href="#habilidades" class="text-decoration-none">Habilidades</a></li>
-          <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
-          <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
-        </ul>
-        <button type="button" class="button primary" data-href="#contacto">Hablemos</button>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gabriel | Diseño web</title>
+  <link rel="icon" type="image/png" href="assets/letra_g.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-    <main>
-      <section class="hero" id="inicio">
-        <div class="container mx-auto d-grid">
-          <div>
-            <span class="status-pill d-flex align-items-center text-uppercase">Diseñador web front-end</span>
-            <h1 class="hero-title">Diseño interfaces web con un código <span>limpio </span>y <span>profesional</span>.</h1>
-            <p class="hero-copy">
-              Hola, soy Gabriel. Combino el rigor estético del diseño visual con la
-              precisión de HTML, CSS y JavaScript moderno. Construyendo soluciones web
-              enfocadas en la experiencia del usuario y el rendimiento.
-            </p>
-            <div class="actions d-flex">
-              <button type="button" class="button primary" data-href="#proyectos">Ver Proyectos ↓</button>
-              <button type="button" class="button" data-href="#sobre-mi">Mi trayectoria</button>
-            </div>
+<body>
+  <header>
+    <div class="container mx-auto main-nav d-flex justify-content-between align-items-center">
+      <a href="#inicio" class="brand d-flex align-items-center text-decoration-none"><i
+          class="brand-mark d-grid">G</i>Gabriel.html</a>
+      <ul>
+        <li><a href="#inicio" class="text-decoration-none">Inicio</a></li>
+        <li><a href="#habilidades" class="text-decoration-none">Habilidades</a></li>
+        <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
+        <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
+      </ul>
+      <button type="button" class="button primary" data-href="#contacto">Hablemos</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container mx-auto d-grid">
+        <div>
+          <span class="status-pill d-flex align-items-center text-uppercase">Diseñador web front-end</span>
+          <h1 class="hero-title">Diseño interfaces web con un código <span>limpio </span>y <span>profesional</span>.
+          </h1>
+          <p class="hero-copy">
+            Hola, soy Gabriel. Combino el rigor estético del diseño visual con la
+            precisión de HTML, CSS y JavaScript moderno. Construyendo soluciones web
+            enfocadas en la experiencia del usuario y el rendimiento.
+          </p>
+          <div class="actions d-flex">
+            <button type="button" class="button primary" data-href="#proyectos">Ver Proyectos ↓</button>
+            <button type="button" class="button" data-href="#sobre-mi">Mi trayectoria</button>
           </div>
-          <div class="code-panel">
-            <div class="code-bar d-flex align-items-center">portfolio.js</div>
-            <pre><span class="token-key">const</span> student = {
+        </div>
+        <div class="code-panel">
+          <div class="code-bar d-flex align-items-center">portfolio.js</div>
+          <pre><span class="token-key">const</span> student = {
   name: <span class="token-string">"Gabriel"</span>,
   role: <span class="token-string">"Web Designer"</span>,
   skills: [<span class="token-string">"HTML"</span>, <span class="token-string">"CSS"</span>, <span class="token-string">"JS"</span>],
@@ -54,220 +59,244 @@
   return <span class="token-value">brand</span> + <span class="token-value">layout</span>;
 }
 </pre>
-          </div>
-        </div>
-      </section>
-
-      <section class="alternate" id="habilidades">
-        <div class="container mx-auto">
-          <div class="section-header centered text-center">
-            <span class="eyebrow text-uppercase">Especialización técnica</span>
-            <h2>Mis Herramientas de Creación</h2>
-            <p class="section-copy">
-              Me enfoco en dominar tecnologías nativas de la web para garantizar que el
-              diseño sea tan eficiente como visualmente impresionante.
-            </p>
-          </div>
-          <div class="skills-grid d-grid">
-            <article class="skill-card">
-              <div class="skill-header d-flex justify-content-between align-items-center"><span class="skill-icon d-grid">▣</span><span class="skill-tag text-uppercase">Estructura</span></div>
-              <h3 class="fw-bold">HTML Semántico</h3>
-              <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">95%</b></div>
-              <div class="progress"><i class="progress-bar" style="--w:95%"></i></div>
-            </article>
-            <article class="skill-card">
-              <div class="skill-header d-flex justify-content-between align-items-center"><span class="skill-icon d-grid">◐</span><span class="skill-tag text-uppercase">Estilos</span></div>
-              <h3 class="fw-bold">CSS / Flexbox &amp; Grid</h3>
-              <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">90%</b></div>
-              <div class="progress"><i class="progress-bar" style="--w:90%"></i></div>
-            </article>
-            <article class="skill-card">
-              <div class="skill-header d-flex justify-content-between align-items-center"><span class="skill-icon d-grid">&gt;_</span><span class="skill-tag text-uppercase">Interactividad</span></div>
-              <h3 class="fw-bold">JavaScript ES6+</h3>
-              <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">80%</b></div>
-              <div class="progress"><i class="progress-bar" style="--w:80%"></i></div>
-            </article>
-            <article class="skill-card">
-              <div class="skill-header d-flex justify-content-between align-items-center"><span class="skill-icon d-grid">R</span><span class="skill-tag text-uppercase">Visualización</span></div>
-              <h3 class="fw-bold">Responsive</h3>
-              <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">85%</b></div>
-              <div class="progress"><i class="progress-bar" style="--w:85%"></i></div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos">
-        <div class="container mx-auto">
-          <div class="section-header">
-            <span class="eyebrow text-uppercase">Último trabajo</span>
-            <h2>Proyecto</h2>
-          </div>
-          <article class="feature-showcase d-grid align-items-center">
-            <figure class="showcase-visual">
-              <img src="assets/pag-flag.png" class="w-100" alt="Captura de la página Banderas del mundo">
-            </figure>
-            <div>
-              <h3>Banderas del mundo</h3>
-              <p class="feature-copy">
-                Sitio informativo con las banderas de los continentes, organizado
-                por región. Fue una de las primeras páginas que construí durante mi
-                formación y me sirvió para practicar estructura HTML, maquetación con
-                CSS y navegación entre secciones.
-              </p>
-              <ul class="feature-checks list-unstyled">
-                <li class="d-flex gap-2">Navegación por continentes</li>
-                <li class="d-flex gap-2">Diseño adaptable a móvil</li>
-              </ul>
-              <div class="feature-actions d-flex">
-                <button type="button" class="button primary" data-href="https://flags-the-world.netlify.app/" data-target="_blank">Ver sitio en vivo</button>
-                <button type="button" class="button" data-href="https://github.com/CalisBlood123/flag-pag" data-target="_blank">Ver Código en GitHub</button>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="proceso">
-        <div class="container mx-auto">
-          <div class="section-header centered text-center">
-            <span class="eyebrow text-uppercase">Cómo trabajo</span>
-            <h2>Cómo desarrollo un proyecto</h2>
-            <p class="section-copy mx-auto">
-              Sigo tres pasos para convertir una idea de diseño en una página web
-              clara, ordenada y que funcione correctamente.
-            </p>
-          </div>
-          <div class="projects-grid d-grid">
-            <article class="process-step">
-              <div class="step-number">01</div>
-              <h3>Idea y diseño</h3>
-              <p>
-                Primero entiendo qué necesita el proyecto y
-                preparo un boceto en Figma para definir cómo
-                se verá y cómo lo usarán las personas.
-              </p>
-            </article>
-            <article class="process-step">
-              <div class="step-number">02</div>
-              <h3>Estructura y estilos</h3>
-              <p>
-                Escribo el código HTML y CSS de forma
-                ordenada, para que la página se vea bien en
-                cualquier pantalla y sea fácil de mantener.
-              </p>
-            </article>
-            <article class="process-step">
-              <div class="step-number">03</div>
-              <h3>Funciones e interacción</h3>
-              <p>
-                Con JavaScript agrego funciones y animaciones
-                sencillas, y conecto datos externos cuando el
-                proyecto lo necesita.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="alternate about" id="sobre-mi">
-        <div class="container mx-auto">
-          <span class="eyebrow text-uppercase">Sobre mí</span>
-          <h2>Estudiante de Diseño enfocado en la Tecnología</h2>
-          <p>
-            Actualmente haciendo un curso de Diseño y Desarrollo Web. Mi
-            misión es unificar el plano estético con la ingeniería informática del lado
-            del cliente. Creo firmemente que un buen producto no solo debe verse
-            espectacular, sino que debe cargar al instante, ser accesible para todos y
-            fácil de escalar.
-          </p>
-          <p>
-            Cuando no estoy programando, me gusta informarme sobre nuevas tecnologías para
-            mejorar mi manera de trabajar con mayor eficiencia.
-          </p>
-          <div class="about-stats">
-            <div><b>15+</b><span>Proyectos UI prototipados</span></div>
-            <div><b>100%</b><span>Pasión por los detalles pixel-perfect</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="centered alternate-2" id="contacto">
-        <div class="container mx-auto">
-          <span class="eyebrow text-uppercase">Contacto</span>
-          <h2>¿Trabajamos juntos?</h2>
-          <p class="section-copy mx-auto">
-            Estoy abierto a prácticas, proyectos freelancer y colaboraciones. Escríbeme
-            y te respondo lo antes posible.
-          </p>
-          <address class="contact-links d-flex flex-wrap justify-content-center gap-3">
-            <button class="button fw-bold"><a id="btn-copiar" class="text-decoration-none">calisblood123@correo.com</a></button>
-            <button class="button fw-bold"><a href="https://github.com/CalisBlood123" target="_blank" class="text-decoration-none">GitHub</a></button>
-          </address>
-
-          <form action="https://formspree.io/f/xvkzjwdd" method="POST" class="newsletter mx-auto">
-            <div class="newsletter-fields d-grid">
-              <div>
-                <label>Nombre completo</label>
-                <input id="nombre" type="text" placeholder="Tu nombre..." class="w-100" required />
-              </div>
-              <div>
-                <label for="correo">Correo electrónico</label>
-                <input id="correo" name="email" type="email" placeholder="Tu correo..." class="w-100" required />
-              </div>
-            </div>
-            <div class="contact-message">
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="message" rows="4" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
-            </div>
-            <button type="submit" class="button primary newsletter-submit w-100 justify-content-center fw-bold">Enviar mensaje</button>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container mx-auto">
-        <div class="footer-grid d-grid">
-          <section class="p-0">
-            <a href="#inicio" class="brand text-decoration-none"><i class="brand-mark d-grid">G</i>Gabriel.html</a>
-            <p>
-              Estudiante y diseñador apasionado por crear interfaces web con un gran
-              sentido estético e interactividad interactiva moderna.
-            </p>
-            <address class="footer-nolink fst-normal">calisblood123@correo.com</address>
-          </section>
-          <section class="p-0">
-            <h4>Navegación</h4>
-            <ul class="list-unstyled">
-              <li><a href="#inicio" class="text-decoration-none">Inicio</a></li>
-              <li><a href="#habilidades" class="text-decoration-none">Habilidades</a></li>
-              <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
-              <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
-            </ul>
-          </section>
-          <section class="p-0">
-            <h4>Habilidades clave</h4>
-            <ul class="list-unstyled">
-              <li>HTML5 Semántico</li>
-              <li>CSS Moderno / Flexbox</li>
-              <li>JavaScript</li>
-              <li>Responsive</li>
-            </ul>
-          </section>
-          <section class="p-0">
-            <h4>Social</h4>
-            <ul class="list-unstyled">
-              <li><a href="https://github.com/CalisBlood123" target="_blank" class="text-decoration-none">GitHub</a></li>
-            </ul>
-          </section>
-        </div>
-        <div class="footer-meta d-flex justify-content-between">
-          <p>© 2026 Gabriel.html Todos los derechos reservados. Diseñado con mucho amor</p>
         </div>
       </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
+    </section>
+
+    <section class="alternate" id="habilidades">
+      <div class="container mx-auto">
+        <div class="section-header centered text-center">
+          <span class="eyebrow text-uppercase">Especialización técnica</span>
+          <h2>Mis Herramientas de Creación</h2>
+          <p class="section-copy">
+            Me enfoco en dominar tecnologías nativas de la web para garantizar que el
+            diseño sea tan eficiente como visualmente impresionante.
+          </p>
+        </div>
+        <div class="skills-grid d-grid">
+          <article class="skill-card">
+            <div class="skill-header d-flex justify-content-between align-items-center"><span
+                class="skill-icon d-grid">▣</span><span class="skill-tag text-uppercase">Estructura</span></div>
+            <h3 class="fw-bold">HTML Semántico</h3>
+            <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">95%</b></div>
+            <div class="progress"><i class="progress-bar" style="--w:95%"></i></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-header d-flex justify-content-between align-items-center"><span
+                class="skill-icon d-grid">◐</span><span class="skill-tag text-uppercase">Estilos</span></div>
+            <h3 class="fw-bold">CSS / Flexbox &amp; Grid</h3>
+            <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">90%</b></div>
+            <div class="progress"><i class="progress-bar" style="--w:90%"></i></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-header d-flex justify-content-between align-items-center"><span
+                class="skill-icon d-grid">&gt;_</span><span class="skill-tag text-uppercase">Interactividad</span></div>
+            <h3 class="fw-bold">JavaScript ES6+</h3>
+            <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">80%</b></div>
+            <div class="progress"><i class="progress-bar" style="--w:80%"></i></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-header d-flex justify-content-between align-items-center"><span
+                class="skill-icon d-grid">R</span><span class="skill-tag text-uppercase">Visualización</span></div>
+            <h3 class="fw-bold">Responsive</h3>
+            <div class="level-row d-flex justify-content-between"><span>Nivel</span><b class="fw-bold">85%</b></div>
+            <div class="progress"><i class="progress-bar" style="--w:85%"></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="container mx-auto">
+        <div class="section-header">
+          <span class="eyebrow text-uppercase">Último trabajo</span>
+          <h2>Proyecto</h2>
+        </div>
+        <article class="feature-showcase d-grid align-items-center">
+          <figure class="showcase-visual">
+            <img src="assets/pag-flag.png" class="w-100" alt="Captura de la página Banderas del mundo">
+          </figure>
+          <div>
+            <h3>Banderas del mundo</h3>
+            <p class="feature-copy">
+              Sitio informativo con las banderas de los continentes, organizado
+              por región. Fue una de las primeras páginas que construí durante mi
+              formación y me sirvió para practicar estructura HTML, maquetación con
+              CSS y navegación entre secciones.
+            </p>
+            <ul class="feature-checks list-unstyled">
+              <li class="d-flex gap-2">Navegación por continentes</li>
+              <li class="d-flex gap-2">Diseño adaptable a móvil</li>
+            </ul>
+            <div class="feature-actions d-flex">
+              <button type="button" class="button primary" data-href="https://flags-the-world.netlify.app/"
+                data-target="_blank">Ver sitio en vivo</button>
+              <button type="button" class="button" data-href="https://github.com/CalisBlood123/flag-pag"
+                data-target="_blank">Ver Código en GitHub</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="proceso">
+      <div class="container mx-auto">
+        <div class="section-header centered text-center">
+          <span class="eyebrow text-uppercase">Cómo trabajo</span>
+          <h2>Cómo desarrollo un proyecto</h2>
+          <p class="section-copy mx-auto">
+            Sigo tres pasos para convertir una idea de diseño en una página web
+            clara, ordenada y que funcione correctamente.
+          </p>
+        </div>
+        <div class="projects-grid d-grid">
+          <article class="process-step">
+            <div class="step-number">01</div>
+            <h3>Idea y diseño</h3>
+            <p>
+              Primero entiendo qué necesita el proyecto y
+              preparo un boceto en Figma para definir cómo
+              se verá y cómo lo usarán las personas.
+            </p>
+          </article>
+          <article class="process-step">
+            <div class="step-number">02</div>
+            <h3>Estructura y estilos</h3>
+            <p>
+              Escribo el código HTML y CSS de forma
+              ordenada, para que la página se vea bien en
+              cualquier pantalla y sea fácil de mantener.
+            </p>
+          </article>
+          <article class="process-step">
+            <div class="step-number">03</div>
+            <h3>Funciones e interacción</h3>
+            <p>
+              Con JavaScript agrego funciones y animaciones
+              sencillas, y conecto datos externos cuando el
+              proyecto lo necesita.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="alternate about" id="sobre-mi">
+      <div class="container mx-auto">
+        <span class="eyebrow text-uppercase">Sobre mí</span>
+        <h2>Estudiante de Diseño enfocado en la Tecnología</h2>
+        <p>
+          Actualmente haciendo un curso de Diseño y Desarrollo Web. Mi
+          misión es unificar el plano estético con la ingeniería informática del lado
+          del cliente. Creo firmemente que un buen producto no solo debe verse
+          espectacular, sino que debe cargar al instante, ser accesible para todos y
+          fácil de escalar.
+        </p>
+        <p>
+          Cuando no estoy programando, me gusta informarme sobre nuevas tecnologías para
+          mejorar mi manera de trabajar con mayor eficiencia.
+        </p>
+        <div class="about-stats">
+          <div><b>15+</b><span>Proyectos UI prototipados</span></div>
+          <div><b>100%</b><span>Pasión por los detalles pixel-perfect</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="centered alternate-2" id="contacto">
+      <div class="container mx-auto">
+        <span class="eyebrow text-uppercase">Contacto</span>
+        <h2>¿Trabajamos juntos?</h2>
+        <p class="section-copy mx-auto">
+          Estoy abierto a prácticas, proyectos freelancer y colaboraciones. Escríbeme
+          y te respondo lo antes posible.
+        </p>
+        <address class="contact-links d-flex flex-wrap justify-content-center gap-3">
+          <button type="button" class="button fw-bold" id="btn-copiar">calisblood123@correo.com</button>
+          <button class="button fw-bold"><a href="https://github.com/CalisBlood123" target="_blank"
+              class="text-decoration-none">GitHub</a></button>
+        </address>
+
+        <form action="https://formspree.io/f/xvkzjwdd" method="POST" class="newsletter mx-auto">
+          <div class="newsletter-fields d-grid">
+            <div>
+              <label>Nombre completo</label>
+              <input id="nombre" type="text" placeholder="Tu nombre..." class="w-100" required />
+            </div>
+            <div>
+              <label for="correo">Correo electrónico</label>
+              <input id="correo" name="email" type="email" placeholder="Tu correo..." class="w-100" required />
+            </div>
+          </div>
+          <div class="contact-message">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="message" rows="4" placeholder="Cuéntame sobre tu proyecto..."
+              required></textarea>
+          </div>
+          <button type="submit" class="button primary newsletter-submit w-100 justify-content-center fw-bold">Enviar
+            mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container mx-auto">
+      <div class="footer-grid d-grid">
+        <section class="p-0">
+          <a href="#inicio" class="brand text-decoration-none"><i class="brand-mark d-grid">G</i>Gabriel.html</a>
+          <p>
+            Estudiante y diseñador apasionado por crear interfaces web con un gran
+            sentido estético e interactividad interactiva moderna.
+          </p>
+          <address class="footer-nolink fst-normal">calisblood123@correo.com</address>
+        </section>
+        <section class="p-0">
+          <h4>Navegación</h4>
+          <ul class="list-unstyled">
+            <li><a href="#inicio" class="text-decoration-none">Inicio</a></li>
+            <li><a href="#habilidades" class="text-decoration-none">Habilidades</a></li>
+            <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
+            <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
+          </ul>
+        </section>
+        <section class="p-0">
+          <h4>Habilidades clave</h4>
+          <ul class="list-unstyled">
+            <li>HTML5 Semántico</li>
+            <li>CSS Moderno / Flexbox</li>
+            <li>JavaScript</li>
+            <li>Responsive</li>
+          </ul>
+        </section>
+        <section class="p-0">
+          <h4>Social</h4>
+          <ul class="list-unstyled">
+            <li><a href="https://github.com/CalisBlood123" target="_blank" class="text-decoration-none">GitHub</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="footer-meta d-flex justify-content-between">
+        <p>© 2026 Gabriel.html Todos los derechos reservados. Diseñado con mucho amor</p>
+      </div>
+    </div>
+
+
+    <div id="notificacion" class="copy-toast" role="status" aria-live="polite">
+      <span class="copy-toast-icon">✓</span>
+
+      <div>
+        <strong>¡Copiado!</strong>
+        <p>Copiado al portapapeles</p>
+      </div>
+    </div>
+
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>

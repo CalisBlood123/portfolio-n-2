@@ -610,6 +610,45 @@ footer {
   cursor: pointer;
 }
 
+.copy-toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* para que quede sobre el resto */
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  background: #292d33;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 15px #0003;
+
+  opacity: 0;
+  transform: translateY(15px);
+  pointer-events: none;
+
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.copy-toast p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #c2c7ce;
+}
+
+.copy-toast-icon {
+  color: #65d991;
+  font-size: 24px;
+}
+
+.copy-toast.mostrar {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 @media (max-width: 60rem) {
   .hero .container,
