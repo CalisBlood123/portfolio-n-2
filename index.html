@@ -20,7 +20,7 @@
           <li><a href="#proyectos" class="text-decoration-none">Proyectos</a></li>
           <li><a href="#sobre-mi" class="text-decoration-none">Sobre Mi</a></li>
         </ul>
-        <a href="#contacto" class="button primary text-decoration-none">Hablemos</a>
+        <button type="button" class="button primary" data-href="#contacto">Hablemos</button>
       </div>
     </header>
 
@@ -36,8 +36,8 @@
               enfocadas en la experiencia del usuario y el rendimiento.
             </p>
             <div class="actions d-flex">
-              <a href="#proyectos" class="button primary text-decoration-none">Ver Proyectos ↓</a>
-              <a href="#sobre-mi" class="button text-decoration-none">Mi trayectoria</a>
+              <button type="button" class="button primary" data-href="#proyectos">Ver Proyectos ↓</button>
+              <button type="button" class="button" data-href="#sobre-mi">Mi trayectoria</button>
             </div>
           </div>
           <div class="code-panel">
@@ -120,8 +120,8 @@
                 <li class="d-flex gap-2">Diseño adaptable a móvil</li>
               </ul>
               <div class="feature-actions d-flex">
-                <a href="https://flags-the-world.netlify.app/" target="_blank" class="button primary text-decoration-none">Ver sitio en vivo</a>
-                <a href="https://github.com/CalisBlood123/flag-pag" target="_blank" class="button text-decoration-none"> Ver Código en GitHub</a>
+                <button type="button" class="button primary" data-href="https://flags-the-world.netlify.app/" data-target="_blank">Ver sitio en vivo</button>
+                <button type="button" class="button" data-href="https://github.com/CalisBlood123/flag-pag" data-target="_blank">Ver Código en GitHub</button>
               </div>
             </div>
           </article>
@@ -205,7 +205,7 @@
             <button class="button fw-bold"><a href="https://github.com/CalisBlood123" target="_blank" class="text-decoration-none">GitHub</a></button>
           </address>
 
-          <form class="newsletter mx-auto">
+          <form action="https://formspree.io/f/xvkzjwdd" method="POST" class="newsletter mx-auto">
             <div class="newsletter-fields d-grid">
               <div>
                 <label>Nombre completo</label>
@@ -213,12 +213,12 @@
               </div>
               <div>
                 <label for="correo">Correo electrónico</label>
-                <input id="correo" name="correo" type="email" placeholder="tu@correo.com" class="w-100" required />
+                <input id="correo" name="email" type="email" placeholder="tu@correo.com" class="w-100" required />
               </div>
             </div>
             <div class="contact-message">
               <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntame sobre tu proyecto" required></textarea>
+              <textarea id="mensaje" name="message" rows="4" placeholder="Cuéntame sobre tu proyecto" required></textarea>
             </div>
             <button type="submit" class="button primary newsletter-submit w-100 justify-content-center fw-bold">Enviar mensaje</button>
           </form>
